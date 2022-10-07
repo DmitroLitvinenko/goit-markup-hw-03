@@ -43,7 +43,7 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid red;
+  outline: 2px solid red;
 }
 
 .section {
@@ -177,9 +177,20 @@ body {
 }
 
 /* --------------------------WORKS/TEAM---------------------------- */
+.works.section {
+  padding-top: 0;
+}
+
+.team-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: auto;
+  padding-right: auto;
+}
 
 .works-title,
 .team-title {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -272,4 +283,11 @@ body {
   font-size: 16px;
   line-height: 1.88;
   color: var(--primary-font-color);
+}
+
+.project-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: auto;
+  padding-right: auto;
 }
