@@ -70,6 +70,10 @@ img {
   align-items: center;
 }
 
+.main-nav {
+  display: flex;
+}
+
 .header-nav {
   display: flex;
   margin-left: 93px;
@@ -129,9 +133,6 @@ img {
 .hero {
   text-align: center;
   background-color: #2f303a;
-}
-
-.hero-container {
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -197,6 +198,8 @@ img {
 }
 
 .advantage-title {
+  margin-bottom: 10px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -274,14 +277,18 @@ img {
 
 /* --------------------------FOOTER---------------------------- */
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #2f303a;
 }
 
 .logo-footer {
   display: inline-block;
-  padding-top: 60px;
-  margin-bottom: 20px;
   color: var(--primary-white);
+}
+
+.footer .logo {
+  margin-bottom: 20px;
 }
 
 .address-link {
@@ -291,10 +298,6 @@ img {
 
 .address-item:not(:last-child) {
   margin-bottom: 9px;
-}
-
-.address-item:last-child {
-  padding-bottom: 60px;
 }
 
 .footer-link {
@@ -317,6 +320,7 @@ img {
   background-color: var(--button-bgcolor);
   color: var(--secondary-font-color);
   border-radius: 4px;
+  border: none;
 }
 
 .btn-portfolio:hover,
@@ -334,8 +338,6 @@ img {
 }
 
 .project-item {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
   width: calc((100% - 60px) / 3);
 }
 
@@ -359,4 +361,6 @@ img {
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
